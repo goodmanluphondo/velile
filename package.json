@@ -1,5 +1,6 @@
 {
   "name": "velile",
+  "homepage": "http://velileconsultants.co.za",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
