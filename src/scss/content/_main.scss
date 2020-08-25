@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Montserrat, sans-serif;
+}
+ul,
+ol {
+    list-style: none;
+}
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+    font-weight: 300;
+}
+p {
+    margin: 0;
+    margin-bottom: 18px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .col {
+        padding: 0;
+    }
+
+    .col--full-width {
+        width: 100%;
+    }
+
+    .col--half-width {
+        width: 50%;
+    }
+}
